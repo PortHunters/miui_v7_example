@@ -1,0 +1,3 @@
+appfile <example.apk>;
+# any operations with app or jar
+copy "%here%/example.xml" "%res%/xml/example.xml";
