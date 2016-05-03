@@ -1,2 +1,1 @@
-#PortCamera.rc - Stock camera code
-#XiaomiCamera.rc - Camera code from Xiaomi device
+#Camera.rc - Stock camera lens code
