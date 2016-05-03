@@ -1,0 +1,9 @@
+    #Add camera with ph-cr by I1PABIJJA <i1pabijja@gmail.com>
+	chmod 0660 /dev/FM50AF
+    chmod 0660 /dev/DW9718AF
+    chmod 0660 /dev/DW9761AF
+    chmod 0660 /dev/OV8825AF
+	chown system camera /dev/FM50AF
+    chown system camera /dev/DW9718AF
+    chown system camera /dev/DW9761AF
+    chown system camera /dev/OV8825AF
