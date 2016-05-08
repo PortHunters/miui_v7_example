@@ -1,4 +1,4 @@
-    #Add camera with ph-cr by I1PABIJJA <i1pabijja@gmail.com>
+#Camera
     chmod 0660 /dev/FM50AF
     chmod 0660 /dev/DW9718AF
     chmod 0660 /dev/DW9761AF
@@ -7,3 +7,9 @@
     chown system camera /dev/DW9718AF
     chown system camera /dev/DW9761AF
     chown system camera /dev/OV8825AF
+#Init
+service sysinit /system/bin/logwrapper /system/xbin/busybox run-parts /system/etc/init.d
+    user root
+    oneshot
+#Some
+    mkdir /dev/pht
